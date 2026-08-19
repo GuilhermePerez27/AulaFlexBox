@@ -8,6 +8,8 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
+    padding: 15px;
+    zoom: 150%;
 }
 
 .cabecalho-inicio {
@@ -20,8 +22,28 @@
     align-items: center;
 }
 
+.logotipo-nome{
+    font-weight: bold;
+}
+
+.logotipo-nome:hover {
+    color: white;
+}
+
 .logotipo-icone {
     color: red;
+}
+
+.logotipo-video {
+    border-radius: 50%;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+
+.logotipo-video:hover {
+    background-color: rgb(67, 67, 67);
+    color: white;
 }
 
 .logotipo-pais {
@@ -40,7 +62,9 @@
 }
 
 .cabecalho-final {
-    background-color: green;
+    display:flex;
+    background-color: white;
+    gap: 10px;
 }
 
 .search {
