@@ -1,0 +1,75 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho-inicio {
+    display: flex;
+    gap: 16px;
+}
+
+.logotipo {
+    display: flex;
+    align-items: center;
+}
+
+.logotipo-icone {
+    color: red;
+}
+
+.logotipo-pais {
+    font-size: 8px;
+    color: rgb(67, 67, 67);
+}
+
+.cabecalho-inicio {
+    background-color: rgb(255, 177, 177);
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-centro {
+    background-color: rgb(255, 255, 185);
+}
+
+.cabecalho-final {
+    background-color: green;
+}
+
+.search {
+    display: flex;
+}
+
+.search-input {
+    border: 1px solid gray;
+    outline: none;
+    height: 32px;
+    width: 300px;
+    border-radius: 16px 0 0 16px;
+}
+
+.search-button {
+    width: 50px;
+    height: 32px;
+    border: 1px solid gray;
+    border-radius: 0 16px 16px 0;
+}
+
+.microphone {
+    height: 32px;
+    width: 32px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.cabecalho-centro {
+    display: flex;
+    gap: 8px;
+}
